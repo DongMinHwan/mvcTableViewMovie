@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         tableView.rowHeight = 120 // tableView 에서 하나하나의 높이
         tableView.delegate = self
-        title = "영화목록"
+        title = "영화목록입니다."
         // Do any additional setup   after loading the view.
         movieDataManager.makeMovieData() // 데이터를 먼저 생성하기 위해서
         //셀을 등록하는 과정(스토리보드로 구현했으면 필요없다.)
